@@ -13,3 +13,12 @@ export interface INavItemsProps {
     link: string;
     icon?: JSX.Element;
 }
+
+export interface IProjectProps {
+    id: number;
+    title: string;
+    des: string;
+    img: string;
+    iconLists: string[];
+    link: string;
+}
