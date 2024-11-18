@@ -71,7 +71,7 @@ export const projects = [
         des: `Developed a secure and user-friendly marketplace for buying and selling high-quality templates, 
         enabling seamless transactions and accessibility.`,
         img: "/projects/mt.jpg",
-        iconLists: ["/nextjs.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/c.svg"],
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/c.svg", "pr.svg", "mdb.svg"],
         link: "https://marketplace-8hzy.vercel.app/",
     },
     {
@@ -80,7 +80,7 @@ export const projects = [
         des: `Developed an Admin dashboard application leveraging the React ecosystem. Utilized Tailwind CSS for utility-first styling, Framer Motion for creating smooth animations, and Lucide React for iconography. Integrated Recharts to display charts and statistics, and implemented multi-page 
         navigation using React Router DOM.`,
         img: "/projects/ad.jpg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/fm.svg"],
+        iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/fm.svg"],
         link: "https://66d520e2824c6474c5561314--darling-pie-5765e6.netlify.app/",
     },
     {
@@ -88,7 +88,7 @@ export const projects = [
         title: "Netflix clone",
         des: "Using React Js and its ecosystem, Combining some design patterns such like: function component, container / presentational, finally hook pattern. Using axios for API calls with TMDB. And using context API for authentication process integrated with firebase for authentication and firestore.",
         img: "/projects/netflix.jpg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fi.svg"],
+        iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/fi.svg"],
         link: "https://timely-sorbet-72d900.netlify.app/",
     },
     {
@@ -96,7 +96,7 @@ export const projects = [
         title: "Lavish ecommerce",
         des:  "Using React ecosystem, and by Tailwindcss for the style and including swiper.js for carousel effect, contextApi for state management and JWT for authentcation. For handle forms data I prefered using formik and yup to make the components controllable.. etc",
         img: "/projects/lavish.jpg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+        iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
         link: "https://lavishshop.co/",
     },
     {
@@ -104,7 +104,7 @@ export const projects = [
         title: "Weathe App",
         des:  "Used React and weather API for fetching data from it, as well as choosing tailwindcss for UI over bootstrap cause of the customization which be provided.",
         img: "/projects/wea.jpg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+        iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
         link: "https://tourmaline-tartufo-952345.netlify.app/",
     },
     {
@@ -112,7 +112,7 @@ export const projects = [
         title: "Furniture App",
         des:  "UI landing page to apply what I learn in framer-motion for animation",
         img: "/projects/fur.jpg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+        iconLists: ["/re.svg", "/tail.svg", "/js.svg", 'fm.svg'],
         link: "https://radiant-gumption-7b9b5c.netlify.app/",
     },
     {
@@ -120,7 +120,7 @@ export const projects = [
         title: "Ecommerce",
         des:  "A small project for ecommerce logic. I make it as demo for large scale ecommerce projects, I used fakestore api",
         img: "/projects/eco.jpg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+        iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
         link:"https://654088a0a77e1d5606978874--melodic-moonbeam-064e47.netlify.app/",
     },
     {
@@ -128,7 +128,7 @@ export const projects = [
         title: "landing page",
         des:  "Used React and tailwindcss as a first project using tailwindcss within it.",
         img: "/projects/landingpage.jpg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+        iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
         link: "https://ephemeral-muffin-905136.netlify.app/",
     },
 ];
