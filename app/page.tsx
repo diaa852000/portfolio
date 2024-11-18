@@ -1,21 +1,22 @@
+import Approach from "@/components/Approach";
 import Experience from "@/components/Experiences";
+import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
 import RecentProjects from "@/components/RecentProjects";
-import { FloatingNav } from "@/components/ui/FloatingNav";
-import { navItems } from "@/constants";
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex flex-col justify-center items-center overflow-hidden mx-auto sm:px-10 px-5">
+    <main className="relative bg-black-100 flex flex-col justify-center items-center mx-auto sm:px-10 px-5 overflow-clip">
       <div className="w-full max-w-7xl">
-        <FloatingNav
-          navItems={navItems}
-        />
+        <Navbar/>
         <Hero />
         <Grid />
         <RecentProjects />
         <Experience/>
+        <Approach/>
+        <Footer/>
       </div>
     </main>
   );

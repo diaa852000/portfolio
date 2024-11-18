@@ -3,7 +3,7 @@ import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 
 export default function Grid() {
     return (
-        <section id="about">
+        <section id="about" className="py-20">
             <BentoGrid>
                 {gridItems.map(({id, description, img, imgClassName, className, spareImg, title, titleClassName}) => (
                     <BentoGridItem
