@@ -33,7 +33,7 @@ function Project({ project }: { project: IProjectProps }) {
     return (
         <div
             id={`project-${project.id}`}
-            className="lg:min-h-[32.5rem] h-[28rem] flex items-center justify-center xl:w-[350px] sm:w-96 w-[80vw]"
+            className="lg:min-h-[32.5rem] h-[28rem] flex items-center justify-center xl:w-[350px] sm:w-96 w-[80vw] my-10 lg:my-0"
         >
             <PinContainer title={project.link.slice(0,15)} href={project.link}>
                 <div className="relative flex items-center justify-center xl:w-[350px] sm:w-96 w-[80vw] overflow-hidden h-[20rem] lg:h-[30dvh] mb-10">
