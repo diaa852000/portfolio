@@ -34,7 +34,7 @@ function Hero() {
                         Hi, I&apos;m Diaa, a Frontend Developer (Next.js/ React.js) Developer based in Egypt.
                     </p>
 
-                    <div>
+                    <div className="flex flex-col md:flex-row gap-2 p-2">
                         <a href='#about'>
                             <MagicButton
                                 title="Show my work"
